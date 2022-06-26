@@ -6,7 +6,7 @@ importers:
     specifiers:
       '@nrwl/nx-cloud': latest
       nx: 14.3.6
-      prettier: ^2.7.1
+      prettier: 2.7.1
     devDependencies:
       '@nrwl/nx-cloud': 14.1.2
       nx: 14.3.6
