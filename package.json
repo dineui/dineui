@@ -15,7 +15,7 @@
   "homepage": "https://github.com/limichange/onekit-ui#readme",
   "devDependencies": {
     "@nrwl/nx-cloud": "latest",
-    "nx": "14.3.6",
+    "nx": "14.4.0",
     "prettier": "2.7.1"
   }
 }
