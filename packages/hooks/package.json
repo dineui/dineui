@@ -1,0 +1,8 @@
+{
+  "name": "@onekit-ui/hook",
+  "version": "0.0.1",
+  "scripts": {},
+  "devDependencies": {
+    "vitest": "^0.16.0"
+  }
+}
