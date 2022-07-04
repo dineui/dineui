@@ -787,17 +787,13 @@ packages:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
     dev: true
 
-<<<<<<< HEAD
-  /@typescript-eslint/parser/5.29.0_4x5o4skxv6sl53vpwefgt23khm:
-=======
   /@types/testing-library__jest-dom/5.14.5:
     resolution: {integrity: sha512-SBwbxYoyPIvxHbeHxTZX2Pe/74F/tX2/D3mMvzabdeJ25bBojfW0TyB8BHrbq/9zaaKICJZjLP+8r6AeZMFCuQ==}
     dependencies:
       '@types/jest': 28.1.4
     dev: true
 
-  /@typescript-eslint/parser/5.29.0_b5e7v2qnwxfo6hmiq56u52mz3e:
->>>>>>> 49220a7 (feat: setup test flow)
+  /@typescript-eslint/parser/5.29.0_4x5o4skxv6sl53vpwefgt23khm:
     resolution: {integrity: sha512-ruKWTv+x0OOxbzIw9nW5oWlUopvP/IQDjB5ZqmTglLIoDTctLlAJpAQFpNPJP/ZI7hTT9sARBosEfaKbcFuECw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -1721,9 +1717,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-<<<<<<< HEAD
-  /eslint-config-next/12.2.0_4x5o4skxv6sl53vpwefgt23khm:
-=======
   /escodegen/2.0.0:
     resolution: {integrity: sha512-mmHKys/C8BFUGI+MAWNcSYoORYLMdPzjrknd2Vc+bUsjN5bXcr8EhrNB+UTqfL1y3I9c4fw2ihgtMPQLBRiQxw==}
     engines: {node: '>=6.0'}
@@ -1737,8 +1730,7 @@ packages:
       source-map: 0.6.1
     dev: true
 
-  /eslint-config-next/12.2.0_b5e7v2qnwxfo6hmiq56u52mz3e:
->>>>>>> 49220a7 (feat: setup test flow)
+  /eslint-config-next/12.2.0_4x5o4skxv6sl53vpwefgt23khm:
     resolution: {integrity: sha512-QWzNegadFXjQ0h3hixnLacRM9Kot85vQefyNsA8IeOnERZMz0Gvays1W6DMCjSxJbnCwuWaMXj9DCpar5IahRA==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
