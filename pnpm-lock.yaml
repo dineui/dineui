@@ -63,7 +63,7 @@ importers:
       react-dom: ^18.0.2
       typescript: ^4.7.4
       vite: ^2.9.13
-      vitest: ^0.17.0
+      vitest: 0.18.0
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -80,7 +80,7 @@ importers:
       jsdom: 20.0.0
       typescript: 4.7.4
       vite: 2.9.13
-      vitest: 0.17.0_whnjyddzb34w5lya4lklxusvwy
+      vitest: 0.18.0_whnjyddzb34w5lya4lklxusvwy
 
 packages:
 
@@ -3360,8 +3360,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.17.0_whnjyddzb34w5lya4lklxusvwy:
-    resolution: {integrity: sha512-5YO9ubHo0Zg35mea3+zZAr4sCku32C3usvIH5COeJB48TZV/R0J9aGNtGOOqEWZYfOKP0pGZUvTokne3x/QEFg==}
+  /vitest/0.18.0_whnjyddzb34w5lya4lklxusvwy:
+    resolution: {integrity: sha512-ryAtlh5Gvg3+aLNuOQ8YOHxgQCCu46jx40X5MBL0K0/ejB9i5zsr8fV8LTGXbXex80UMHlzceI9F+ouGaiR+mQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
