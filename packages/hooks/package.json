@@ -6,7 +6,8 @@
     "coverage": "vitest run --coverage",
     "dev": "vite",
     "preview": "vite preview",
-    "test": "vitest --coverage",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "test:ui": "vitest --ui"
   },
   "dependencies": {
