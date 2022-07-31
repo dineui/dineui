@@ -3,6 +3,7 @@
     "cacheable",
     "nrwl",
     "onekit",
+    "pnpm",
     "pnpx"
   ]
 }
