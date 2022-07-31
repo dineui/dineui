@@ -18,5 +18,4 @@ function useBoolean(defaultValue?: boolean): ReturnType {
   return { value, setValue, setTrue, setFalse, toggle }
 }
 
-export default useBoolean
 export { useBoolean }
