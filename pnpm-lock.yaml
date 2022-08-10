@@ -62,7 +62,7 @@ importers:
       '@types/react': 18.0.17
       '@types/react-dom': 18.0.6
       '@vitejs/plugin-react': 2.0.0
-      '@vitest/ui': 0.21.0
+      '@vitest/ui': 0.21.1
       c8: ^7.11.3
       jsdom: ^20.0.0
       react: ^18.0.2
@@ -81,12 +81,12 @@ importers:
       '@types/react': 18.0.17
       '@types/react-dom': 18.0.6
       '@vitejs/plugin-react': 2.0.0_vite@3.0.5
-      '@vitest/ui': 0.21.0
+      '@vitest/ui': 0.21.1
       c8: 7.11.3
       jsdom: 20.0.0
       typescript: 4.7.4
       vite: 3.0.5
-      vitest: 0.21.0_xejkn35hkmwhgsgj25gr4khfwy
+      vitest: 0.21.0_4xbcxirie2voviwfxilmtm3yrq
 
 packages:
 
@@ -805,8 +805,8 @@ packages:
       - supports-color
     dev: true
 
-  /@vitest/ui/0.21.0:
-    resolution: {integrity: sha512-xhMSwxsuaygIWn1jcTHbAVfNty6D2+hFVq+tvqNuSBE0WI3CWyeSOT1ISQ5urt3j5qoRbEXrZxWLC2dN3QeBSA==}
+  /@vitest/ui/0.21.1:
+    resolution: {integrity: sha512-e+AZdMG6NvrYhxB99LGxW1GkoTpqSDPKpL+wghsApWhocNwALBOBzvgsDr/WN6D6YWRXf18rsJ1kY/KaIspRdg==}
     dependencies:
       sirv: 2.0.2
     dev: true
@@ -3388,7 +3388,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.21.0_xejkn35hkmwhgsgj25gr4khfwy:
+  /vitest/0.21.0_4xbcxirie2voviwfxilmtm3yrq:
     resolution: {integrity: sha512-+BQB2swk4wQdw5loOoL8esIYh/1ifAliuwj2HWHNE2F8SAl/jF7/aoCJBoXGSf/Ws19k3pH4NrWeVtcSwM0j2w==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
@@ -3416,7 +3416,7 @@ packages:
       '@types/chai': 4.3.1
       '@types/chai-subset': 1.3.3
       '@types/node': 18.0.0
-      '@vitest/ui': 0.21.0
+      '@vitest/ui': 0.21.1
       c8: 7.11.3
       chai: 4.3.6
       debug: 4.3.4
