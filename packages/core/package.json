@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "rm -rf ./dist && tsc"
+  },
   "license": "MIT",
   "devDependencies": {
     "@emotion/react": "^11.10.0",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
+    "@vitejs/plugin-react": "2.0.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "^4.7.4"
+    "typescript": "^4.7.4",
+    "vite": "3.0.9",
+    "vitest": "0.22.1"
   },
   "peerDependencies": {
     "@emotion/react": "^11.10.0",
