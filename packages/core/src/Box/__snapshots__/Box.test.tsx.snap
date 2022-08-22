@@ -1,0 +1,69 @@
+// Vitest Snapshot v1
+
+exports[`Box component > general usage 1`] = `
+<div
+  className="emotion-0"
+>
+  box
+</div>
+`;
+
+exports[`Box component > responsive props 1`] = `
+.emotion-0 {
+  width: 1px;
+}
+
+@media (min-width: 414px) {
+  .emotion-0 {
+    width: 2px;
+  }
+}
+
+@media (min-width: 960px) {
+  .emotion-0 {
+    width: 3px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .emotion-0 {
+    width: 4px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .emotion-0 {
+    width: 5px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .emotion-0 {
+    width: 6px;
+  }
+}
+
+@media (min-width: 2560px) {
+  .emotion-0 {
+    width: 7px;
+  }
+}
+
+<div
+  className="emotion-0"
+>
+  box
+</div>
+`;
+
+exports[`Box component > xs props 1`] = `
+.emotion-0 {
+  width: 100px;
+}
+
+<div
+  className="emotion-0"
+>
+  box
+</div>
+`;
