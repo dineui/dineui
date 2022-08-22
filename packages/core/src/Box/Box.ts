@@ -4,11 +4,15 @@ import { useBox, UseBoxParams } from './useBox'
 
 export interface BoxProps extends UseBoxParams {
   children?: ReactNode | string
+  as?: string
 }
 
 export const Box: FC<BoxProps> = (props) => {
-  const { children, ...otherProps } = props
-  const boxProps = useBox(otherProps)
+  const { as = 'div', ...useBoxProps } = props
+  const { boxProps, otherProps } = useBox(useBoxProps)
 
-  return jsx('div', boxProps, children)
+  return jsx(as, {
+    ...boxProps,
+    ...otherProps,
+  })
 }

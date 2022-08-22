@@ -25,7 +25,7 @@ export const mediaQuery = (breakpoint: number) => {
 }
 
 export function useBox(params: UseBoxParams = {}) {
-  const { xs, s, m, l, xl, xxl, xxxl } = params
+  const { xs, s, m, l, xl, xxl, xxxl, ...otherProps } = params
 
   const interStyle = {
     ...xs,
@@ -38,6 +38,9 @@ export function useBox(params: UseBoxParams = {}) {
   }
 
   return {
-    css: interStyle,
+    boxProps: {
+      css: interStyle,
+    },
+    otherProps,
   }
 }
