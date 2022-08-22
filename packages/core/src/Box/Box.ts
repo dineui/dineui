@@ -7,9 +7,8 @@ export interface BoxProps extends UseBoxParams {
 }
 
 export const Box: FC<BoxProps> = (props) => {
-  const boxProps = useBox(props)
+  const { children, ...otherProps } = props
+  const boxProps = useBox(otherProps)
 
-  return jsx('div', {
-    ...boxProps,
-  })
+  return jsx('div', boxProps, children)
 }

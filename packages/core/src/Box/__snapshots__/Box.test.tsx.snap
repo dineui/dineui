@@ -1,0 +1,9 @@
+// Vitest Snapshot v1
+
+exports[`Box component > general usage 1`] = `
+<div
+  className="emotion-0"
+>
+  box
+</div>
+`;

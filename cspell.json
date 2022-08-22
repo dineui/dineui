@@ -5,6 +5,10 @@
     "onekit",
     "pnpm",
     "pnpx",
-    "xxxl"
+    "xlarge",
+    "xsmall",
+    "xxlarge",
+    "xxxl",
+    "xxxlarge"
   ]
 }

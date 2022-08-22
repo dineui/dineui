@@ -1,6 +1,6 @@
 {
   "include": ["./src/**/*"],
-  "exclude": ["./vitest.config.ts", "./test/**/*"],
+  "exclude": ["./vitest.config.ts", "src/test/**/*"],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
