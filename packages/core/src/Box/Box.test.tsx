@@ -16,14 +16,17 @@ describe('Box component', () => {
     expect(tree).toMatchSnapshot()
   })
 
-  // test('style', () => {
-  //   render(
-  //     <Box
-  //       xs={{
-  //         width: 100,
-  //       }}>
-  //       box
-  //     </Box>,
-  //   )
-  // })
+  test('general xs props', () => {
+    const component = renderer.create(
+      <Box
+        xs={{
+          width: 100,
+        }}>
+        box
+      </Box>,
+    )
+
+    let tree = toJson(component)
+    expect(tree).toMatchSnapshot()
+  })
 })

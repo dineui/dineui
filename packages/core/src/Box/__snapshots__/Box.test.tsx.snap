@@ -7,3 +7,17 @@ exports[`Box component > general usage 1`] = `
   box
 </div>
 `;
+
+exports[`Box component > general xs props 1`] = `
+@media (min-width: 0px) {
+  .emotion-0 {
+    width: 100px;
+  }
+}
+
+<div
+  className="emotion-0"
+>
+  box
+</div>
+`;

@@ -39,6 +39,5 @@ export function useBox(params: UseBoxParams = {}) {
 
   return {
     css: interStyle,
-    ...params,
   }
 }
