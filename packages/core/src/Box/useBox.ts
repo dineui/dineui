@@ -7,7 +7,7 @@ export interface UseBoxParams {
   l?: CSSObject
   xl?: CSSObject
   xxl?: CSSObject
-  xxxl?: {}
+  xxxl?: CSSObject
 }
 
 export const mediaBreakpoints = {
