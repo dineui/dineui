@@ -36,18 +36,18 @@ importers:
 
   packages/core:
     specifiers:
-      '@emotion/jest': ^11.10.0
-      '@emotion/react': ^11.10.0
+      '@emotion/jest': 11.10.0
+      '@emotion/react': 11.10.0
       '@testing-library/jest-dom': 5.16.5
       '@types/jest': 28.1.7
       '@types/react': 18.0.17
       '@types/react-dom': 18.0.6
-      '@types/react-test-renderer': ^18.0.0
+      '@types/react-test-renderer': 18.0.0
       '@vitejs/plugin-react': 2.0.1
-      happy-dom: ^6.0.4
+      happy-dom: 6.0.4
       react: 18.2.0
       react-dom: 18.2.0
-      react-test-renderer: ^18.2.0
+      react-test-renderer: 18.2.0
       typescript: 4.7.4
       vite: 3.0.9
       vitest: 0.22.1
@@ -849,7 +849,7 @@ packages:
     dev: true
 
   /@types/form-data/0.0.33:
-    resolution: {integrity: sha1-yayFsqX9GENbjIXZ7LUObWyJP/g=}
+    resolution: {integrity: sha512-8BSvG1kGm83cyJITQMZSulnl6QV8jqAGreJsc5tPu1Jq0vTSOiY/k24Wx82JRpWwZSqrala6sd5rWi6aNXvqcw==}
     dependencies:
       '@types/node': 18.0.0
     dev: true
