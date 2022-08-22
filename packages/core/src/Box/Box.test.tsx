@@ -16,14 +16,14 @@ describe('Box component', () => {
     expect(tree).toMatchSnapshot()
   })
 
-  test('general xs props', () => {
+  test('xs props', () => {
     const component = renderer.create(<Box xs={{ width: 100 }}>box</Box>)
 
     let tree = toJson(component)
     expect(tree).toMatchSnapshot()
   })
 
-  test('general responsive props', () => {
+  test('responsive props', () => {
     const component = renderer.create(
       <Box
         xs={{ width: 1 }}
