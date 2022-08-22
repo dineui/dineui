@@ -1,12 +1,12 @@
-import { CSSObject, Interpolation, Theme } from '@emotion/react'
+import { CSSObject } from '@emotion/react'
 
 export interface UseBoxParams {
-  xs?: Interpolation<Theme> | CSSObject
-  s?: Interpolation<Theme> | CSSObject
-  m?: Interpolation<Theme> | CSSObject
-  l?: Interpolation<Theme> | CSSObject
-  xl?: Interpolation<Theme> | CSSObject
-  xxl?: Interpolation<Theme> | CSSObject
+  xs?: CSSObject
+  s?: CSSObject
+  m?: CSSObject
+  l?: CSSObject
+  xl?: CSSObject
+  xxl?: CSSObject
   xxxl?: {}
 }
 
@@ -28,7 +28,7 @@ export function useBox(params: UseBoxParams = {}) {
   const { xs, s, m, l, xl, xxl, xxxl } = params
 
   const interStyle = {
-    [mediaQuery(mediaBreakpoints.xsmall)]: xs,
+    ...xs,
     [mediaQuery(mediaBreakpoints.small)]: s,
     [mediaQuery(mediaBreakpoints.medium)]: m,
     [mediaQuery(mediaBreakpoints.large)]: l,

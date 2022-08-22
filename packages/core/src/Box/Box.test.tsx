@@ -17,16 +17,27 @@ describe('Box component', () => {
   })
 
   test('general xs props', () => {
+    const component = renderer.create(<Box xs={{ width: 100 }}>box</Box>)
+
+    let tree = toJson(component)
+    expect(tree).toMatchSnapshot()
+  })
+
+  test('general responsive props', () => {
     const component = renderer.create(
       <Box
-        xs={{
-          width: 100,
-        }}>
+        xs={{ width: 1 }}
+        s={{ width: 2 }}
+        m={{ width: 3 }}
+        l={{ width: 4 }}
+        xl={{ width: 5 }}
+        xxl={{ width: 6 }}
+        xxxl={{ width: 7 }}>
         box
       </Box>,
     )
 
-    let tree = toJson(component)
+    const tree = toJson(component)
     expect(tree).toMatchSnapshot()
   })
 })
