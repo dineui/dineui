@@ -50,7 +50,7 @@ importers:
       react-test-renderer: 18.2.0
       typescript: 4.8.2
       vite: 3.0.9
-      vitest: 0.22.1
+      vitest: 0.23.0
     devDependencies:
       '@emotion/jest': 11.10.0_@types+jest@29.0.0
       '@emotion/react': 11.10.4_kplob4qkml7iizqg4gayudvumu
@@ -66,7 +66,7 @@ importers:
       react-test-renderer: 18.2.0_react@18.2.0
       typescript: 4.8.2
       vite: 3.0.9
-      vitest: 0.22.1_happy-dom@6.0.4
+      vitest: 0.23.0_happy-dom@6.0.4
 
   packages/design-system:
     specifiers: {}
@@ -90,7 +90,7 @@ importers:
       react-dom: 18.2.0
       typescript: 4.8.2
       vite: 3.0.9
-      vitest: 0.22.1
+      vitest: 0.23.0
     dependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
@@ -107,7 +107,7 @@ importers:
       jsdom: 20.0.0
       typescript: 4.8.2
       vite: 3.0.9
-      vitest: 0.22.1_r26ddduqt3xuel6y6oroghsjvu
+      vitest: 0.23.0_r26ddduqt3xuel6y6oroghsjvu
 
 packages:
 
@@ -3652,6 +3652,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  /strip-literal/0.4.0:
+    resolution: {integrity: sha512-ql/sBDoJOybTKSIOWrrh8kgUEMjXMwRAkZTD0EwiwxQH/6tTPkZvMIEjp0CRlpi6V5FMiJyvxeRkEi1KrGISoA==}
+    dependencies:
+      acorn: 8.8.0
+    dev: true
+
   /styled-jsx/5.0.2_react@18.2.0:
     resolution: {integrity: sha512-LqPQrbBh3egD57NBcHET4qcgshPks+yblyhPlH2GY8oaDgKs8SK4C3dBh3oSJjgzJ3G5t1SYEZGHkP+QEpX9EQ==}
     engines: {node: '>= 12.0.0'}
@@ -3738,6 +3744,11 @@ packages:
       http-response-object: 3.0.2
       promise: 8.1.0
       qs: 6.11.0
+    dev: true
+
+  /tinybench/2.1.4:
+    resolution: {integrity: sha512-NFWIw2Gg7EUPdeE8nL1Dc7AMVlk7sOr2PmSNKVuQrZ0YwTOFoshPQ+hcLrgnhK8dTP3FWMCJaf4N+/hXp6lKPw==}
+    engines: {node: '>=16.0.0'}
     dev: true
 
   /tinypool/0.2.4:
@@ -3920,8 +3931,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest/0.22.1_happy-dom@6.0.4:
-    resolution: {integrity: sha512-+x28YTnSLth4KbXg7MCzoDAzPJlJex7YgiZbUh6YLp0/4PqVZ7q7/zyfdL0OaPtKTpNiQFPpMC8Y2MSzk8F7dw==}
+  /vitest/0.23.0_happy-dom@6.0.4:
+    resolution: {integrity: sha512-I3ctlfiXYprA2tID1qP+m6pmgmKx3HYfRe66MetGOHKCHLY7hz74ihiwIEtN7LReJgF3U5cM735iYPkn/Go1iQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -3949,6 +3960,8 @@ packages:
       debug: 4.3.4
       happy-dom: 6.0.4
       local-pkg: 0.4.2
+      strip-literal: 0.4.0
+      tinybench: 2.1.4
       tinypool: 0.2.4
       tinyspy: 1.0.2
       vite: 3.0.9
@@ -3960,8 +3973,8 @@ packages:
       - terser
     dev: true
 
-  /vitest/0.22.1_r26ddduqt3xuel6y6oroghsjvu:
-    resolution: {integrity: sha512-+x28YTnSLth4KbXg7MCzoDAzPJlJex7YgiZbUh6YLp0/4PqVZ7q7/zyfdL0OaPtKTpNiQFPpMC8Y2MSzk8F7dw==}
+  /vitest/0.23.0_r26ddduqt3xuel6y6oroghsjvu:
+    resolution: {integrity: sha512-I3ctlfiXYprA2tID1qP+m6pmgmKx3HYfRe66MetGOHKCHLY7hz74ihiwIEtN7LReJgF3U5cM735iYPkn/Go1iQ==}
     engines: {node: '>=v14.16.0'}
     hasBin: true
     peerDependencies:
@@ -3990,6 +4003,8 @@ packages:
       debug: 4.3.4
       jsdom: 20.0.0
       local-pkg: 0.4.2
+      strip-literal: 0.4.0
+      tinybench: 2.1.4
       tinypool: 0.2.4
       tinyspy: 1.0.2
       vite: 3.0.9
