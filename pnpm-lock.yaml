@@ -39,7 +39,7 @@ importers:
       '@emotion/jest': 11.10.0
       '@emotion/react': 11.10.4
       '@testing-library/jest-dom': 5.16.5
-      '@types/jest': 29.0.0
+      '@types/jest': 29.0.3
       '@types/react': 18.0.18
       '@types/react-dom': 18.0.6
       '@types/react-test-renderer': 18.0.0
@@ -52,10 +52,10 @@ importers:
       vite: 3.1.0
       vitest: 0.23.1
     devDependencies:
-      '@emotion/jest': 11.10.0_@types+jest@29.0.0
+      '@emotion/jest': 11.10.0_@types+jest@29.0.3
       '@emotion/react': 11.10.4_p6fq7jdyqwnykllwwkx4b6uid4
       '@testing-library/jest-dom': 5.16.5
-      '@types/jest': 29.0.0
+      '@types/jest': 29.0.3
       '@types/react': 18.0.18
       '@types/react-dom': 18.0.6
       '@types/react-test-renderer': 18.0.0
@@ -79,7 +79,7 @@ importers:
       '@testing-library/jest-dom': 5.16.5
       '@testing-library/react': 13.4.0
       '@testing-library/user-event': 14.4.3
-      '@types/jest': 29.0.0
+      '@types/jest': 29.0.3
       '@types/react': 18.0.18
       '@types/react-dom': 18.0.6
       '@vitejs/plugin-react': 2.1.0
@@ -98,7 +98,7 @@ importers:
       '@testing-library/jest-dom': 5.16.5
       '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
       '@testing-library/user-event': 14.4.3_ihvo3xlg2d6kwqju3os3zitn3y
-      '@types/jest': 29.0.0
+      '@types/jest': 29.0.3
       '@types/react': 18.0.18
       '@types/react-dom': 18.0.6
       '@vitejs/plugin-react': 2.1.0_vite@3.1.0
@@ -451,7 +451,7 @@ packages:
     resolution: {integrity: sha512-14FtKiHhy2QoPIzdTcvh//8OyBlknNs2nXRwIhG904opCby3l+9Xaf/wuPvICBF0rc1ZCNBd3nKe9cd2mecVkQ==}
     dev: true
 
-  /@emotion/jest/11.10.0_@types+jest@29.0.0:
+  /@emotion/jest/11.10.0_@types+jest@29.0.3:
     resolution: {integrity: sha512-jeevEzauWrjDPWt9BGITjKzgLd31Q6kZ35gmH77f+LSaU/Ie1bFfxroum0nQNPEHS+kUxh6unv9DQIw+DEr5Ug==}
     peerDependencies:
       '@types/jest': ^26.0.14 || ^27.0.0 || ^28.0.0
@@ -464,7 +464,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.3
       '@emotion/css-prettifier': 1.1.0
-      '@types/jest': 29.0.0
+      '@types/jest': 29.0.3
       chalk: 4.1.0
       specificity: 0.4.1
       stylis: 4.0.13
@@ -902,8 +902,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/29.0.0:
-    resolution: {integrity: sha512-X6Zjz3WO4cT39Gkl0lZ2baFRaEMqJl5NC1OjElkwtNzAlbkr2K/WJXkBkH5VP0zx4Hgsd2TZYdOEfvp2Dxia+Q==}
+  /@types/jest/29.0.3:
+    resolution: {integrity: sha512-F6ukyCTwbfsEX5F2YmVYmM5TcTHy1q9P5rWlRbrk56KyMh3v9xRGUO3aa8+SkvMi0SHXtASJv1283enXimC0Og==}
     dependencies:
       expect: 29.0.1
       pretty-format: 29.0.1
@@ -968,7 +968,7 @@ packages:
   /@types/testing-library__jest-dom/5.14.5:
     resolution: {integrity: sha512-SBwbxYoyPIvxHbeHxTZX2Pe/74F/tX2/D3mMvzabdeJ25bBojfW0TyB8BHrbq/9zaaKICJZjLP+8r6AeZMFCuQ==}
     dependencies:
-      '@types/jest': 29.0.0
+      '@types/jest': 29.0.3
     dev: true
 
   /@types/yargs-parser/21.0.0:
