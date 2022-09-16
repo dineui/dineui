@@ -11,7 +11,7 @@ importers:
   apps/doc:
     specifiers:
       '@types/node': 18.0.0
-      '@types/react': 18.0.18
+      '@types/react': 18.0.20
       '@types/react-dom': 18.0.6
       eslint: 8.23.0
       eslint-config-next: 12.2.5
@@ -26,7 +26,7 @@ importers:
       typescript: 4.7.4
     devDependencies:
       '@types/node': 18.0.0
-      '@types/react': 18.0.18
+      '@types/react': 18.0.20
       '@types/react-dom': 18.0.6
       eslint: 8.23.0
       eslint-config-next: 12.2.5_sorwav4hsh5vncerguqybud76i
@@ -40,7 +40,7 @@ importers:
       '@emotion/react': 11.10.4
       '@testing-library/jest-dom': 5.16.5
       '@types/jest': 29.0.3
-      '@types/react': 18.0.18
+      '@types/react': 18.0.20
       '@types/react-dom': 18.0.6
       '@types/react-test-renderer': 18.0.0
       '@vitejs/plugin-react': 2.1.0
@@ -53,10 +53,10 @@ importers:
       vitest: 0.23.1
     devDependencies:
       '@emotion/jest': 11.10.0_@types+jest@29.0.3
-      '@emotion/react': 11.10.4_p6fq7jdyqwnykllwwkx4b6uid4
+      '@emotion/react': 11.10.4_iksih6ga4nkhwh2wzqdjne7wyy
       '@testing-library/jest-dom': 5.16.5
       '@types/jest': 29.0.3
-      '@types/react': 18.0.18
+      '@types/react': 18.0.20
       '@types/react-dom': 18.0.6
       '@types/react-test-renderer': 18.0.0
       '@vitejs/plugin-react': 2.1.0_vite@3.1.0
@@ -80,7 +80,7 @@ importers:
       '@testing-library/react': 13.4.0
       '@testing-library/user-event': 14.4.3
       '@types/jest': 29.0.3
-      '@types/react': 18.0.18
+      '@types/react': 18.0.20
       '@types/react-dom': 18.0.6
       '@vitejs/plugin-react': 2.1.0
       '@vitest/ui': 0.23.1
@@ -99,7 +99,7 @@ importers:
       '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
       '@testing-library/user-event': 14.4.3_ihvo3xlg2d6kwqju3os3zitn3y
       '@types/jest': 29.0.3
-      '@types/react': 18.0.18
+      '@types/react': 18.0.20
       '@types/react-dom': 18.0.6
       '@vitejs/plugin-react': 2.1.0_vite@3.1.0
       '@vitest/ui': 0.23.1
@@ -474,7 +474,7 @@ packages:
     resolution: {integrity: sha512-G/YwXTkv7Den9mXDO7AhLWkE3q+I92B+VqAE+dYG4NGPaHZGvt3G8Q0p9vmE+sq7rTGphUbAvmQ9YpbfMQGGlA==}
     dev: true
 
-  /@emotion/react/11.10.4_p6fq7jdyqwnykllwwkx4b6uid4:
+  /@emotion/react/11.10.4_iksih6ga4nkhwh2wzqdjne7wyy:
     resolution: {integrity: sha512-j0AkMpr6BL8gldJZ6XQsQ8DnS9TxEQu1R+OGmDZiWjBAJtCcbt0tS3I/YffoqHXxH6MjgI7KdMbYKw3MEiU9eA==}
     peerDependencies:
       '@babel/core': ^7.0.0
@@ -494,7 +494,7 @@ packages:
       '@emotion/use-insertion-effect-with-fallbacks': 1.0.0_react@18.2.0
       '@emotion/utils': 1.2.0
       '@emotion/weak-memoize': 0.3.0
-      '@types/react': 18.0.18
+      '@types/react': 18.0.20
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
     dev: true
@@ -940,17 +940,17 @@ packages:
   /@types/react-dom/18.0.6:
     resolution: {integrity: sha512-/5OFZgfIPSwy+YuIBP/FgJnQnsxhZhjjrnxudMddeblOouIodEQ75X14Rr4wGSG/bknL+Omy9iWlLo1u/9GzAA==}
     dependencies:
-      '@types/react': 18.0.18
+      '@types/react': 18.0.20
     dev: true
 
   /@types/react-test-renderer/18.0.0:
     resolution: {integrity: sha512-C7/5FBJ3g3sqUahguGi03O79b8afNeSD6T8/GU50oQrJCU0bVCCGQHaGKUbg2Ce8VQEEqTw8/HiS6lXHHdgkdQ==}
     dependencies:
-      '@types/react': 18.0.18
+      '@types/react': 18.0.20
     dev: true
 
-  /@types/react/18.0.18:
-    resolution: {integrity: sha512-6hI08umYs6NaiHFEEGioXnxJ+oEhY3eRz8VCUaudZmGdtvPviCJB8mgaMxaDWAdPSYd4eFavrPk2QIolwbLYrg==}
+  /@types/react/18.0.20:
+    resolution: {integrity: sha512-MWul1teSPxujEHVwZl4a5HxQ9vVNsjTchVA+xRqv/VYGCuKGAU6UhfrTdF5aBefwD1BHUD8i/zq+O/vyCm/FrA==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
