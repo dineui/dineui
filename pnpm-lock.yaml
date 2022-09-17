@@ -48,7 +48,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0
       react-test-renderer: 18.2.0
-      typescript: 4.8.2
+      typescript: 4.8.3
       vite: 3.1.2
       vitest: 0.23.1
     devDependencies:
@@ -64,7 +64,7 @@ importers:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-test-renderer: 18.2.0_react@18.2.0
-      typescript: 4.8.2
+      typescript: 4.8.3
       vite: 3.1.2
       vitest: 0.23.1_happy-dom@6.0.4
 
@@ -88,7 +88,7 @@ importers:
       jsdom: 20.0.0
       react: 18.2.0
       react-dom: 18.2.0
-      typescript: 4.8.2
+      typescript: 4.8.3
       vite: 3.1.2
       vitest: 0.23.1
     dependencies:
@@ -105,7 +105,7 @@ importers:
       '@vitest/ui': 0.23.1
       c8: 7.12.0
       jsdom: 20.0.0
-      typescript: 4.8.2
+      typescript: 4.8.3
       vite: 3.1.2
       vitest: 0.23.1_dy3eolvvquedhjwqma34rzkxmm
 
@@ -3873,8 +3873,8 @@ packages:
     engines: {node: '>=4.2.0'}
     hasBin: true
 
-  /typescript/4.8.2:
-    resolution: {integrity: sha512-C0I1UsrrDHo2fYI5oaCGbSejwX4ch+9Y5jTQELvovfmFkK3HHSZJB8MSJcWLmCUBzQBchCrZ9rMRV6GuNrvGtw==}
+  /typescript/4.8.3:
+    resolution: {integrity: sha512-goMHfm00nWPa8UvR/CPSvykqf6dVV8x/dp0c5mFTMTIu0u0FlGWRioyy7Nn0PGAdHxpJZnuO/ut+PpQ8UiHAig==}
     engines: {node: '>=4.2.0'}
     hasBin: true
     dev: true
