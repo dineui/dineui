@@ -1,18 +1,18 @@
 {
-  "name": "@onekit-ui/packages",
+  "name": "@dineui/packages",
   "version": "1.0.0",
   "scripts": {
     "nx:workspace-lint": "nx workspace-lint"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/limichange/onekit-ui.git"
+    "url": "git+https://github.com/dineui/dineui.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/limichange/onekit-ui/issues"
+    "url": "https://github.com/dineui/dineui/issues"
   },
-  "homepage": "https://github.com/limichange/onekit-ui#readme",
+  "homepage": "https://github.com/dineui/dineui#readme",
   "devDependencies": {
     "prettier": "2.7.1"
   }
