@@ -1,7 +1,14 @@
 import { Box } from 'dineui'
 
 const HomePage = () => {
-  return <Box>h1</Box>
+  return (
+    <Box
+      xs={{
+        color: 'red',
+      }}>
+      h1
+    </Box>
+  )
 }
 
 export default HomePage
