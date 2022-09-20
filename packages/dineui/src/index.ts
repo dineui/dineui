@@ -1,1 +1,1 @@
-export * from './base/Box'
+export * from './components/base/Box'
