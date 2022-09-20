@@ -1,5 +1,7 @@
+import { Box } from 'dineui'
+
 const HomePage = () => {
-  return <h1>h1</h1>
+  return <Box>h1</Box>
 }
 
 export default HomePage
