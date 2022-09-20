@@ -39,7 +39,20 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Build and test
-        uses: mansagroup/nrwl-nx-action@v2
-        with:
-          targets: lint,build,test
+      - name: Derive appropriate SHAs for base and head for `nx affected` commands
+        uses: nrwl/nx-set-shas@v3
+
+      - name: nx workspace lint
+        run: pnpx nx workspace-lint
+
+      - name: nx format check
+        run: pnpx nx format:check
+
+      - name: Run lint
+        run: pnpm run nx:lint
+
+      - name: Run build
+        run: pnpm run nx:build
+
+      - name: Run tests
+        run: pnpm run --parallel test
