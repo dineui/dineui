@@ -39,8 +39,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install
 
-      - name: Run build
-        run: pnpm run nx:build
-
-      - name: Run tests
-        run: pnpm run --parallel test
+      - name: Build and test
+        uses: mansagroup/nrwl-nx-action@v2
+        with:
+          targets: lint,build,test

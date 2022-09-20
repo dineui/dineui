@@ -4,6 +4,7 @@
   "scripts": {
     "nx:workspace-lint": "nx workspace-lint",
     "nx:graph": "nx graph",
+    "nx:lint": "nx run-many --target=lint",
     "nx:dev": "nx run-many --target=dev",
     "nx:build": "nx run-many --target=build"
   },
