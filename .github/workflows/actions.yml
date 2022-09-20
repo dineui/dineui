@@ -53,8 +53,8 @@ jobs:
       - name: nx workspace lint
         run: pnpx nx workspace-lint
 
-      - name: nx format check
-        run: pnpx nx format:check
+      # - name: nx format check
+      #   run: pnpx nx format:check
 
       - name: Run lint
         run: pnpm run nx:lint

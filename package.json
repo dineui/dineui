@@ -6,7 +6,8 @@
     "nx:graph": "nx graph",
     "nx:lint": "nx run-many --target=lint",
     "nx:dev": "nx run-many --target=dev",
-    "nx:build": "nx run-many --target=build"
+    "nx:build": "nx run-many --target=build",
+    "nx:format:check": "nx format:check"
   },
   "repository": {
     "type": "git",
