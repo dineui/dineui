@@ -33,7 +33,7 @@ export const Button: FC<ButtonProps> = (props) => {
   })
 
   return (
-    <Box></Box>
+    <Box>2c</Box>
     // <Box
     //   as="button"
     //   disabled={disabled}

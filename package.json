@@ -2,7 +2,9 @@
   "name": "@dineui/packages",
   "version": "1.0.0",
   "scripts": {
-    "nx:workspace-lint": "nx workspace-lint"
+    "nx:workspace-lint": "nx workspace-lint",
+    "nx:graph": "nx graph",
+    "nx:dev": "pnpx nx run-many --target=dev"
   },
   "repository": {
     "type": "git",
@@ -14,6 +16,7 @@
   },
   "homepage": "https://github.com/dineui/dineui#readme",
   "devDependencies": {
-    "prettier": "2.7.1"
+    "prettier": "2.7.1",
+    "nx": "14.7.6"
   }
 }

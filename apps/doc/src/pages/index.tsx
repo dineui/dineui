@@ -1,4 +1,4 @@
-import { Box } from 'dineui'
+import { Box, Button } from 'dineui'
 
 const HomePage = () => {
   return (
@@ -7,6 +7,7 @@ const HomePage = () => {
         color: 'red',
       }}>
       h1
+      <Button>222</Button>
     </Box>
   )
 }
