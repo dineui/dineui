@@ -27,7 +27,7 @@ module.exports = {
   bracketSpacing: true,
 
   // https://prettier.io/docs/en/options.html#bracket-line
-  jsxBracketSameLine: true,
+  bracketSameLine: true,
 
   // https://prettier.io/docs/en/options.html#arrow-function-parentheses
   arrowParens: 'always',
@@ -41,4 +41,4 @@ module.exports = {
 
   // https://prettier.io/docs/en/options.html#single-attribute-per-line
   singleAttributePerLine: false,
-};
+}
