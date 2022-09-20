@@ -4,7 +4,8 @@
   "scripts": {
     "nx:workspace-lint": "nx workspace-lint",
     "nx:graph": "nx graph",
-    "nx:dev": "pnpx nx run-many --target=dev"
+    "nx:dev": "pnpx nx run-many --target=dev",
+    "nx:build": "pnpx nx run-many --target=build"
   },
   "repository": {
     "type": "git",
