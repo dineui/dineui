@@ -4,10 +4,10 @@ importers:
 
   .:
     specifiers:
-      nx: 14.7.6
+      nx: 14.7.8
       prettier: 2.7.1
     devDependencies:
-      nx: 14.7.6
+      nx: 14.7.8
       prettier: 2.7.1
 
   apps/doc:
@@ -755,20 +755,20 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@nrwl/cli/14.7.6:
-    resolution: {integrity: sha512-AGGkBodn5+aPGVCMK/jOImYNf54mzEKBkWM56cYRcONP19bJcs9mWO7je4uAgiX79z5M37bic0e608MA2GLcbQ==}
+  /@nrwl/cli/14.7.8:
+    resolution: {integrity: sha512-QH1egjg4gSVOZXOOhECAx9c18d/TdeqhNeTw2skHww2G9IbUwgab+jqL6GSMPuuGtLs7Vagt2kUkc7aegNgUuA==}
     dependencies:
-      nx: 14.7.6
+      nx: 14.7.8
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
     dev: true
 
-  /@nrwl/tao/14.7.6:
-    resolution: {integrity: sha512-yiIjpMPDN7N2asrIYPsoQMY9HZmBE9m0/EQCu9dWtmevYSMygbaEFEBO8hkNG+clvylWOoUMBE4RfVOMYQRK3g==}
+  /@nrwl/tao/14.7.8:
+    resolution: {integrity: sha512-pQ1eoesFKaEGWZLTAhv6Bs/2PS7GaT/jbT6ZN7ZhvYQq88DZxVb9SJkTthSaSJ22MHHevmljOeiv5onRffDsqQ==}
     hasBin: true
     dependencies:
-      nx: 14.7.6
+      nx: 14.7.8
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
@@ -1386,7 +1386,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
   /concat-stream/1.6.2:
@@ -3005,8 +3005,8 @@ packages:
       path-key: 3.1.1
     dev: true
 
-  /nx/14.7.6:
-    resolution: {integrity: sha512-G+QaLMdTtFsWTmVno89SP/5St40IGmFW5wgrIwDGSeosV91G6S0OpU0Yot0D1exgH7gYLh5tE45qGpXFpGGbww==}
+  /nx/14.7.8:
+    resolution: {integrity: sha512-fSnjS7R1iB9ZtsZ4HPkt/xwl8Z+SfgXY6bH99LCAL2KniaMxbnoU5S3N+WbIZb6KnXQjl/rCxTZYoQaRL7C8pQ==}
     hasBin: true
     requiresBuild: true
     peerDependencies:
@@ -3018,8 +3018,8 @@ packages:
       '@swc/core':
         optional: true
     dependencies:
-      '@nrwl/cli': 14.7.6
-      '@nrwl/tao': 14.7.6
+      '@nrwl/cli': 14.7.8
+      '@nrwl/tao': 14.7.8
       '@parcel/watcher': 2.0.4
       chalk: 4.1.0
       chokidar: 3.5.3
