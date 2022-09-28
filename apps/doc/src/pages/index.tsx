@@ -1,6 +1,11 @@
 import { Box, Button } from 'dineui'
+import { useTheme } from '@emotion/react'
 
 const HomePage = () => {
+  const theme = useTheme()
+
+  console.log('theme', theme)
+
   return (
     <Box
       xs={{
