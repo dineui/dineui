@@ -4,10 +4,10 @@ importers:
 
   .:
     specifiers:
-      nx: 14.7.13
+      nx: 14.7.17
       prettier: 2.7.1
     devDependencies:
-      nx: 14.7.13
+      nx: 14.7.17
       prettier: 2.7.1
 
   apps/doc:
@@ -755,20 +755,20 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@nrwl/cli/14.7.13:
-    resolution: {integrity: sha512-roEowDw1TxNsfL/pv752pO/gZrxhfpO1BUQ47madKn/ujupzVe/ropufrT7taDntwQMcHWLrHG3lJyqOexUJIA==}
+  /@nrwl/cli/14.7.17:
+    resolution: {integrity: sha512-ovzGpWnTrmFXX5TEV2VzBUz8oPLoPkqtGKpdvlHvnd0UADQUpmNxoSY7mzHclDLRMyb6MWnVKqlJiypTG/p9iw==}
     dependencies:
-      nx: 14.7.13
+      nx: 14.7.17
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
     dev: true
 
-  /@nrwl/tao/14.7.13:
-    resolution: {integrity: sha512-nZzbMCNC5UK/Tf7kRbAqdLF5PSqom6aGd3q9m1TKbpxu9ufE5jvK0mF4EDvVJO7LCBnWaLgpZOINRfRPBLGueA==}
+  /@nrwl/tao/14.7.17:
+    resolution: {integrity: sha512-35IPDtv4hdkmDvLuQ/Q5AaDACgsznpmj3+/SitL1U/vYpFUcAPUrPznL3QK4TuvL3IeCLwYaYO0NCZotDEQi4g==}
     hasBin: true
     dependencies:
-      nx: 14.7.13
+      nx: 14.7.17
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
@@ -3048,8 +3048,8 @@ packages:
       path-key: 3.1.1
     dev: true
 
-  /nx/14.7.13:
-    resolution: {integrity: sha512-NWeZ2fDjx6rkueA/lbu6tK4qfSvp6xrvQtv81Cpyae8BhhkoI36QoxkySJVBetIY/MypDPSl9JHqJwkBju4PQw==}
+  /nx/14.7.17:
+    resolution: {integrity: sha512-LLXdz4xeR54Lqw9t3XtOJsBtlwtSexrlIwhWc42GKlv4MHrBOnTp99jTQ/hdP9TpGCU7tvShRQ4ildZJapgRSg==}
     hasBin: true
     requiresBuild: true
     peerDependencies:
@@ -3061,8 +3061,8 @@ packages:
       '@swc/core':
         optional: true
     dependencies:
-      '@nrwl/cli': 14.7.13
-      '@nrwl/tao': 14.7.13
+      '@nrwl/cli': 14.7.17
+      '@nrwl/tao': 14.7.17
       '@parcel/watcher': 2.0.4
       '@yarnpkg/lockfile': 1.1.0
       '@yarnpkg/parsers': 3.0.0-rc.20
