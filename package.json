@@ -20,6 +20,6 @@
   "homepage": "https://github.com/dineui/dineui#readme",
   "devDependencies": {
     "prettier": "2.7.1",
-    "nx": "14.7.17"
+    "nx": "14.8.1"
   }
 }
