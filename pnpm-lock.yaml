@@ -43,7 +43,7 @@ importers:
       '@emotion/react': 11.10.4
       '@testing-library/jest-dom': 5.16.5
       '@testing-library/react': 13.4.0
-      '@types/jest': 29.1.0
+      '@types/jest': 29.1.1
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       '@types/react-test-renderer': 18.0.0
@@ -56,11 +56,11 @@ importers:
       vite: 3.1.4
       vitest: 0.23.2
     devDependencies:
-      '@emotion/jest': 11.10.0_@types+jest@29.1.0
+      '@emotion/jest': 11.10.0_@types+jest@29.1.1
       '@emotion/react': 11.10.4_msyv5sllghxdhcqrv627wahqgi
       '@testing-library/jest-dom': 5.16.5
       '@testing-library/react': 13.4.0_biqbaboplfbrettd7655fr4n2y
-      '@types/jest': 29.1.0
+      '@types/jest': 29.1.1
       '@types/react': 18.0.21
       '@types/react-dom': 18.0.6
       '@types/react-test-renderer': 18.0.0
@@ -374,7 +374,7 @@ packages:
   /@emotion/hash/0.9.0:
     resolution: {integrity: sha512-14FtKiHhy2QoPIzdTcvh//8OyBlknNs2nXRwIhG904opCby3l+9Xaf/wuPvICBF0rc1ZCNBd3nKe9cd2mecVkQ==}
 
-  /@emotion/jest/11.10.0_@types+jest@29.1.0:
+  /@emotion/jest/11.10.0_@types+jest@29.1.1:
     resolution: {integrity: sha512-jeevEzauWrjDPWt9BGITjKzgLd31Q6kZ35gmH77f+LSaU/Ie1bFfxroum0nQNPEHS+kUxh6unv9DQIw+DEr5Ug==}
     peerDependencies:
       '@types/jest': ^26.0.14 || ^27.0.0 || ^28.0.0
@@ -387,7 +387,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.19.0
       '@emotion/css-prettifier': 1.1.0
-      '@types/jest': 29.1.0
+      '@types/jest': 29.1.1
       chalk: 4.1.2
       specificity: 0.4.1
       stylis: 4.0.13
@@ -842,8 +842,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/29.1.0:
-    resolution: {integrity: sha512-CqlKkMNaUhFSRvqVKniNhbcy9fc/Rj2cmFD5t8Jtu4HlHzSit27h7XKfP5kkxBeROQ8WAvQQmy93FIz9or8jKg==}
+  /@types/jest/29.1.1:
+    resolution: {integrity: sha512-U9Ey07dGWl6fUFaIaUQUKWG5NoKi/zizeVQCGV8s4nSU0jPgqphVZvS64+8BtWYvrc3ZGw6wo943NSYPxkrp/g==}
     dependencies:
       expect: 29.0.3
       pretty-format: 29.0.3
@@ -908,7 +908,7 @@ packages:
   /@types/testing-library__jest-dom/5.14.5:
     resolution: {integrity: sha512-SBwbxYoyPIvxHbeHxTZX2Pe/74F/tX2/D3mMvzabdeJ25bBojfW0TyB8BHrbq/9zaaKICJZjLP+8r6AeZMFCuQ==}
     dependencies:
-      '@types/jest': 29.1.0
+      '@types/jest': 29.1.1
     dev: true
 
   /@types/yargs-parser/21.0.0:
