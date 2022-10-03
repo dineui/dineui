@@ -1,17 +1,18 @@
 {
   "name": "@dineui/packages",
-  "version": "1.0.0",
+  "version": "0.0.0-development",
   "scripts": {
     "nx:workspace-lint": "nx workspace-lint",
     "nx:graph": "nx graph",
     "nx:lint": "nx run-many --target=lint",
     "nx:dev": "nx run-many --target=dev",
     "nx:build": "nx run-many --target=build",
-    "nx:format:check": "nx format:check"
+    "nx:format:check": "nx format:check",
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dineui/dineui.git"
+    "url": "https://github.com/dineui/dineui.git"
   },
   "license": "MIT",
   "bugs": {
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/dineui/dineui#readme",
   "devDependencies": {
     "prettier": "2.7.1",
-    "nx": "14.8.2"
+    "nx": "14.8.2",
+    "semantic-release": "^19.0.5"
   }
 }
