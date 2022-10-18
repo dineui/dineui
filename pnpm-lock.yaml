@@ -6,7 +6,7 @@ importers:
     specifiers:
       nx: 15.0.0
       prettier: 2.7.1
-      semantic-release: ^19.0.5
+      semantic-release: 19.0.5
     devDependencies:
       nx: 15.0.0
       prettier: 2.7.1
