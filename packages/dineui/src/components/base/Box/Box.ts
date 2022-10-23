@@ -1,5 +1,5 @@
 import { jsx } from '@emotion/react'
-import { FC, ReactNode } from 'react'
+import { forwardRef, ReactNode } from 'react'
 import { useBox, UseBoxParams } from './useBox'
 
 export interface BoxProps extends UseBoxParams {
@@ -7,12 +7,13 @@ export interface BoxProps extends UseBoxParams {
   as?: string
 }
 
-export const Box: FC<BoxProps> = (props) => {
+export const Box = forwardRef<HTMLElement, BoxProps>((props, ref) => {
   const { as = 'div', ...useBoxProps } = props
   const { boxProps, otherProps } = useBox(useBoxProps)
 
   return jsx(as, {
+    ref,
     ...boxProps,
     ...otherProps,
   })
-}
+})
