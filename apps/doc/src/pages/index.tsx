@@ -1,5 +1,6 @@
 import { Box } from 'dineui'
 import { useTheme } from '@emotion/react'
+import { ClickToComponent } from 'click-to-react-component'
 
 const HomePage = () => {
   const theme = useTheme()
@@ -12,6 +13,7 @@ const HomePage = () => {
         color: 'red',
       }}>
       h1
+      <ClickToComponent />
     </Box>
   )
 }
