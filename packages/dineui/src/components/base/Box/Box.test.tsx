@@ -1,5 +1,6 @@
-import { Box } from './Box'
 import renderer from 'react-test-renderer'
+
+import { Box } from './Box'
 
 function toJson(component: renderer.ReactTestRenderer) {
   const result = component.toJSON()
@@ -12,14 +13,14 @@ describe('Box component', () => {
   test('general usage', () => {
     const component = renderer.create(<Box>box</Box>)
 
-    let tree = toJson(component)
+    const tree = toJson(component)
     expect(tree).toMatchSnapshot()
   })
 
   test('xs props', () => {
     const component = renderer.create(<Box xs={{ width: 100 }}>box</Box>)
 
-    let tree = toJson(component)
+    const tree = toJson(component)
     expect(tree).toMatchSnapshot()
   })
 

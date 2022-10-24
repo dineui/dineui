@@ -1,4 +1,4 @@
-import { CSSObject, useTheme } from '@emotion/react'
+import { CSSObject } from '@emotion/react'
 
 const { assign } = Object
 

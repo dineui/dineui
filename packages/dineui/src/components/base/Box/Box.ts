@@ -1,6 +1,8 @@
+import { ReactNode, forwardRef } from 'react'
+
 import { jsx } from '@emotion/react'
-import { forwardRef, ReactNode } from 'react'
-import { useBox, UseBoxParams } from './useBox'
+
+import { UseBoxParams, useBox } from './useBox'
 
 export interface BoxProps extends UseBoxParams {
   children?: ReactNode | string
