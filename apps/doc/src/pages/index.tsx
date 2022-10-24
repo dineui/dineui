@@ -1,4 +1,4 @@
-import { Box, Button } from 'dineui'
+import { Box } from 'dineui'
 import { useTheme } from '@emotion/react'
 
 const HomePage = () => {
@@ -12,7 +12,6 @@ const HomePage = () => {
         color: 'red',
       }}>
       h1
-      <Button>222</Button>
     </Box>
   )
 }
