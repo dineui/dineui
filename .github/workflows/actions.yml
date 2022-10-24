@@ -56,11 +56,11 @@ jobs:
       # - name: nx format check
       #   run: pnpx nx format:check
 
-      - name: Run lint
-        run: pnpm run nx:lint
-
       - name: Run build
         run: pnpm run nx:build
+
+      - name: Run lint
+        run: pnpm run nx:lint
 
       - name: Run tests
         run: pnpm run --parallel test
