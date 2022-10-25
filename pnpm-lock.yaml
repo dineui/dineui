@@ -4,11 +4,11 @@ importers:
 
   .:
     specifiers:
-      nx: 15.0.1
+      nx: 15.0.2
       prettier: 2.7.1
       semantic-release: 19.0.5
     devDependencies:
-      nx: 15.0.1
+      nx: 15.0.2
       prettier: 2.7.1
       semantic-release: 19.0.5
 
@@ -784,21 +784,21 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
 
-  /@nrwl/cli/15.0.1:
-    resolution: {integrity: sha512-ZehVNZOajNG7i5qg4vDeIcf88PuyFZhAwNhT9G7yjG6v+23zFwOVUsweQeQbY0GxIGc9d+jXGzEe6hU+UYovPQ==}
+  /@nrwl/cli/15.0.2:
+    resolution: {integrity: sha512-jpsAWpOGbO9UCt3d+ANBEc8efbWX08kANhsprL1shGuzETmxr2lcy9ULvOOaPzBLCx6zrQQMq/riwoQVGrVIDQ==}
     dependencies:
-      nx: 15.0.1
+      nx: 15.0.2
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
       - debug
     dev: true
 
-  /@nrwl/tao/15.0.1:
-    resolution: {integrity: sha512-CytTfL7W6xkl1rW5fwO1nGF0Ft/Tk3ilc7/7I9+1NlNGdu/joFMOWub5YEQFIe488BJt2mxZ9m2n6sFJPVD19Q==}
+  /@nrwl/tao/15.0.2:
+    resolution: {integrity: sha512-jH9fgS01rpBimESdtL0UDUD0pCOyeG+L0NE+o1n/cNo8qsfsbw0RwoINdd+FQf3oyD4EMm4bwv3CXQ/PhI0GJw==}
     hasBin: true
     dependencies:
-      nx: 15.0.1
+      nx: 15.0.2
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
@@ -1884,7 +1884,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
   /concat-stream/1.6.2:
     resolution: {integrity: sha512-27HBghJxjiZtIk3Ycvn/4kbJk/1uZuJFfuPEns6LaEvpvG1f0hTea8lilrouyo9mVc2GWdcEZ8OLoGmSADlrCw==}
@@ -4089,8 +4089,8 @@ packages:
       - which
       - write-file-atomic
 
-  /nx/15.0.1:
-    resolution: {integrity: sha512-4pGy6f0SMQpg5kr38I95OkzufgkeMf4n/ui9o2Xk65mFdqXcCzRgRXbKdDhABhdZmhbzV33M+BUPJmMrTw3XDg==}
+  /nx/15.0.2:
+    resolution: {integrity: sha512-qAmSJ2AJG4BntcQJmPG6ykiSvWwYx09/VAynCuvhJkneZvDdGMYaRoNAVVJRhKUi4X+PXBCGfUII6G8tiXuMgg==}
     hasBin: true
     requiresBuild: true
     peerDependencies:
@@ -4102,8 +4102,8 @@ packages:
       '@swc/core':
         optional: true
     dependencies:
-      '@nrwl/cli': 15.0.1
-      '@nrwl/tao': 15.0.1
+      '@nrwl/cli': 15.0.2
+      '@nrwl/tao': 15.0.2
       '@parcel/watcher': 2.0.4
       '@yarnpkg/lockfile': 1.1.0
       '@yarnpkg/parsers': 3.0.0-rc.20
