@@ -16,7 +16,7 @@ importers:
     specifiers:
       '@dineui/eslint-config-dineui': workspace:^1.0.0
       '@emotion/react': 11.10.4
-      '@types/node': 18.11.5
+      '@types/node': 18.11.6
       '@types/react': 18.0.23
       '@types/react-dom': 18.0.7
       click-to-react-component: ^1.0.8
@@ -36,7 +36,7 @@ importers:
       typescript: 4.8.3
     devDependencies:
       '@dineui/eslint-config-dineui': link:../../packages/eslint-config-dineui
-      '@types/node': 18.11.5
+      '@types/node': 18.11.6
       '@types/react': 18.0.23
       '@types/react-dom': 18.0.7
       eslint: 8.26.0
@@ -608,7 +608,7 @@ packages:
       '@jest/schemas': 29.0.0
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 18.11.5
+      '@types/node': 18.11.6
       '@types/yargs': 17.0.12
       chalk: 4.1.2
     dev: true
@@ -1099,13 +1099,13 @@ packages:
   /@types/concat-stream/1.6.1:
     resolution: {integrity: sha512-eHE4cQPoj6ngxBZMvVf6Hw7Mh4jMW4U9lpGmS5GBPB9RYxlFg+CHaVN7ErNY4W9XfLIEn20b4VDYaIrbq0q4uA==}
     dependencies:
-      '@types/node': 18.11.5
+      '@types/node': 18.11.6
     dev: true
 
   /@types/form-data/0.0.33:
     resolution: {integrity: sha512-8BSvG1kGm83cyJITQMZSulnl6QV8jqAGreJsc5tPu1Jq0vTSOiY/k24Wx82JRpWwZSqrala6sd5rWi6aNXvqcw==}
     dependencies:
-      '@types/node': 18.11.5
+      '@types/node': 18.11.6
     dev: true
 
   /@types/istanbul-lib-coverage/2.0.4:
@@ -1146,8 +1146,8 @@ packages:
     resolution: {integrity: sha512-F0KIgDJfy2nA3zMLmWGKxcH2ZVEtCZXHHdOQs2gSaQ27+lNeEfGxzkIw90aXswATX7AZ33tahPbzy6KAfUreVw==}
     dev: true
 
-  /@types/node/18.11.5:
-    resolution: {integrity: sha512-3JRwhbjI+cHLAkUorhf8RnqUbFXajvzX4q6fMn5JwkgtuwfYtRQYI3u4V92vI6NJuTsbBQWWh3RZjFsuevyMGQ==}
+  /@types/node/18.11.6:
+    resolution: {integrity: sha512-j3CEDa2vd96K0AXF8Wur7UucACvnjkk8hYyQAHhUNciabZLDl9nfAEVUSwmh245OOZV15bRA3Y590Gi5jUcDJg==}
     dev: true
 
   /@types/node/8.10.66:
@@ -3558,7 +3558,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.0.3
-      '@types/node': 18.11.5
+      '@types/node': 18.11.6
       chalk: 4.1.2
       ci-info: 3.4.0
       graceful-fs: 4.2.10
@@ -5402,7 +5402,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.3
       '@types/chai-subset': 1.3.3
-      '@types/node': 18.11.5
+      '@types/node': 18.11.6
       chai: 4.3.6
       debug: 4.3.4
       happy-dom: 7.6.6
