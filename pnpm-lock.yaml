@@ -41,6 +41,35 @@ importers:
       '@types/react-dom': 18.0.8
       eslint: 8.26.0
 
+  apps/svg-tool:
+    specifiers:
+      '@dineui/eslint-config-dineui': workspace:^1.0.0
+      '@emotion/react': 11.10.5
+      '@types/node': 18.11.7
+      '@types/react': 18.0.24
+      '@types/react-dom': 18.0.8
+      click-to-react-component: ^1.0.8
+      dineui: workspace:*
+      eslint: 8.26.0
+      next: ^13.0.0
+      react: ^18.2.0
+      react-dom: ^18.2.0
+      typescript: ^4.7.4
+    dependencies:
+      '@emotion/react': 11.10.5_5ihuxrpe4zse4p4tf6ubxcyzuu
+      click-to-react-component: 1.0.8_knhnagtyfncgg2hpin7s37uixq
+      dineui: link:../../packages/dineui
+      next: 13.0.0_qtpcxnaaarbm4ws7ughq6oxfve
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      typescript: 4.8.4
+    devDependencies:
+      '@dineui/eslint-config-dineui': link:../../packages/eslint-config-dineui
+      '@types/node': 18.11.7
+      '@types/react': 18.0.24
+      '@types/react-dom': 18.0.8
+      eslint: 8.26.0
+
   packages/dineui:
     specifiers:
       '@dineui/eslint-config-dineui': workspace:^1.0.0
@@ -1884,7 +1913,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
 
   /concat-stream/1.6.2:
     resolution: {integrity: sha512-27HBghJxjiZtIk3Ycvn/4kbJk/1uZuJFfuPEns6LaEvpvG1f0hTea8lilrouyo9mVc2GWdcEZ8OLoGmSADlrCw==}

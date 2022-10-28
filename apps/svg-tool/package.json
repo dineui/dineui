@@ -1,0 +1,30 @@
+{
+  "name": "@dineui/svg-tool",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "11.10.5",
+    "click-to-react-component": "^1.0.8",
+    "dineui": "workspace:*",
+    "next": "^13.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@dineui/eslint-config-dineui": "workspace:^1.0.0",
+    "@types/node": "18.11.7",
+    "@types/react": "18.0.24",
+    "@types/react-dom": "18.0.8",
+    "eslint": "8.26.0"
+  }
+}
