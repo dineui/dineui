@@ -49,7 +49,6 @@ importers:
       '@types/react': 18.0.24
       '@types/react-dom': 18.0.8
       '@types/sharp': ^0.31.0
-      '@vercel/og': ^0.0.20
       click-to-react-component: ^1.0.8
       copy-to-clipboard: ^3.3.2
       dineui: workspace:*
@@ -62,7 +61,6 @@ importers:
       typescript: ^4.7.4
     dependencies:
       '@emotion/react': 11.10.5_5ihuxrpe4zse4p4tf6ubxcyzuu
-      '@vercel/og': 0.0.20
       click-to-react-component: 1.0.8_knhnagtyfncgg2hpin7s37uixq
       copy-to-clipboard: 3.3.2
       dineui: link:../../packages/dineui
@@ -969,11 +967,6 @@ packages:
       node-gyp-build: 4.5.0
     dev: true
 
-  /@resvg/resvg-wasm/2.0.0-alpha.4:
-    resolution: {integrity: sha512-pWIG9a/x1ky8gXKRhPH1OPKpHFoMN1ISLbJ+O+gPXQHIAKhNd5I28RlWf7q576hAOQA9JZTlo3p/M2uyLzJmmw==}
-    engines: {node: '>= 10'}
-    dev: false
-
   /@semantic-release/commit-analyzer/9.0.2_semantic-release@19.0.5:
     resolution: {integrity: sha512-E+dr6L+xIHZkX4zNMe6Rnwg4YQrWNXK+rNsvwOPpdFppvZO1olE2fIgWhv89TkQErygevbjsZFSIxp+u6w2e5g==}
     engines: {node: '>=14.17'}
@@ -1449,15 +1442,6 @@ packages:
     dependencies:
       '@typescript-eslint/types': 5.40.1
       eslint-visitor-keys: 3.3.0
-    dev: false
-
-  /@vercel/og/0.0.20:
-    resolution: {integrity: sha512-089P+TfqWz0xBxjOvOhkZIDDtfrLcye94H4IZ+SqxoGPWpNGXaBvRJER/z5SoJxJRcCAL8tPiK5zdjRskM6tLw==}
-    engines: {node: '>=16'}
-    dependencies:
-      '@resvg/resvg-wasm': 2.0.0-alpha.4
-      satori: 0.0.43
-      yoga-wasm-web: 0.1.2
     dev: false
 
   /@vitejs/plugin-react/2.2.0_vite@3.2.1:
@@ -5815,8 +5799,4 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       '@types/yoga-layout': 1.9.2
-    dev: false
-
-  /yoga-wasm-web/0.1.2:
-    resolution: {integrity: sha512-8SkgawHcA0RUbMrnhxbaQkZDBi8rMed8pQHixkFF9w32zGhAwZ9/cOHWlpYfr6RCx42Yp3siV45/jPEkJxsk6w==}
     dev: false
