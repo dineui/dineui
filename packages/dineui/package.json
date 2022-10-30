@@ -8,6 +8,7 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "test": "vitest run",
+    "test:watch": "vitest watch",
     "test:ui": "vitest --ui",
     "preview": "vite preview",
     "lint": "eslint . --ext .ts,.tsx --fix --cache"
