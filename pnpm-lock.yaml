@@ -4,11 +4,11 @@ importers:
 
   .:
     specifiers:
-      nx: 15.0.9
+      nx: 15.0.10
       prettier: 2.7.1
       semantic-release: 19.0.5
     devDependencies:
-      nx: 15.0.9
+      nx: 15.0.10
       prettier: 2.7.1
       semantic-release: 19.0.5
 
@@ -824,21 +824,21 @@ packages:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.13.0
 
-  /@nrwl/cli/15.0.9:
-    resolution: {integrity: sha512-MJe1vgSBNAfDtgwPIDNcMaxgK9s0CR11mASJhV9yGfn/INrFW73Mc4WPjFAI9QuLuhZjxszP7AHaoyGyYvBrvQ==}
+  /@nrwl/cli/15.0.10:
+    resolution: {integrity: sha512-+HtEyrSMcaNq1SNhOanKXX3oFntC0mdd5UNIkw8qipSv/7cysBch+3RUwqvnqUFRZhJejCZgFRzUp7rAD7SZ2Q==}
     dependencies:
-      nx: 15.0.9
+      nx: 15.0.10
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
       - debug
     dev: true
 
-  /@nrwl/tao/15.0.9:
-    resolution: {integrity: sha512-dwQnpPOaoVknmFbKpamOxiLivvYTrq8XhH3heZ5PcqvItSDHtCGr9R9LlXM+2M0ubchnWNxjwUMuWf1IJfd0dQ==}
+  /@nrwl/tao/15.0.10:
+    resolution: {integrity: sha512-8MTx+eNxJSH826IOC0LplvVR2fxFz0+VOOUORk2gq75+3jCxmW7uxcTM5WvzgtCw7lFJCvWVZASoGCVEIns6Fg==}
     hasBin: true
     dependencies:
-      nx: 15.0.9
+      nx: 15.0.10
     transitivePeerDependencies:
       - '@swc-node/register'
       - '@swc/core'
@@ -4261,8 +4261,8 @@ packages:
       - which
       - write-file-atomic
 
-  /nx/15.0.9:
-    resolution: {integrity: sha512-NqMX+af7FAUvc20CjdbjP5QOU8l/TV4DTksmn5Gvxha2yuVYlC5luGXcvHM6hN+P8t6CfUCHEWC2BMoNTFsWqg==}
+  /nx/15.0.10:
+    resolution: {integrity: sha512-Uy6C/lj+gFjdNAKg2RNYEqMO7t2jxz5fYAEm6FnViDZ2Qz28l1L6V70MEvq6wgyDzSSRL0I+OPLb71tiaD9BiA==}
     hasBin: true
     requiresBuild: true
     peerDependencies:
@@ -4274,8 +4274,8 @@ packages:
       '@swc/core':
         optional: true
     dependencies:
-      '@nrwl/cli': 15.0.9
-      '@nrwl/tao': 15.0.9
+      '@nrwl/cli': 15.0.10
+      '@nrwl/tao': 15.0.10
       '@parcel/watcher': 2.0.4
       '@yarnpkg/lockfile': 1.1.0
       '@yarnpkg/parsers': 3.0.0-rc.20
