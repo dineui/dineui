@@ -20,6 +20,7 @@ module.exports = {
       'error',
       {
         semi: false,
+        trailingComma: 'all',
         singleQuote: true,
         bracketSpacing: true,
         bracketSameLine: true,

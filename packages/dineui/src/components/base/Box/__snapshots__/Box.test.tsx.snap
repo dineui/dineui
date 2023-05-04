@@ -1,5 +1,14 @@
 // Vitest Snapshot v1
 
+exports[`Box component > click props 1`] = `
+<div
+  className="emotion-0"
+  onClick={[Function]}
+>
+  box
+</div>
+`;
+
 exports[`Box component > general usage 1`] = `
 <div
   className="emotion-0"
