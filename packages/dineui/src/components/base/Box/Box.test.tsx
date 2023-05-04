@@ -35,10 +35,26 @@ describe('Box component', () => {
         xxl={{ width: 6 }}
         xxxl={{ width: 7 }}>
         box
-      </Box>,
+      </Box>
     )
 
     const tree = toJson(component)
+
+    expect(tree).toMatchSnapshot()
+  })
+
+  test('click props', () => {
+    const component = renderer.create(
+      <Box
+        onClick={() => {
+          console.log('ok')
+        }}>
+        box
+      </Box>
+    )
+
+    const tree = toJson(component)
+
     expect(tree).toMatchSnapshot()
   })
 })

@@ -1,6 +1,6 @@
 {
   "name": "dineui",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "type": "module",
   "main": "./dist/esm/index.js",
@@ -40,7 +40,7 @@
     "@emotion/react": "11.10.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "4.9.4"
+    "typescript": "5.0.4"
   },
   "dependencies": {
     "deepmerge": "4.2.2",

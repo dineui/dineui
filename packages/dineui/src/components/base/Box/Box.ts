@@ -1,10 +1,12 @@
-import { ReactNode, forwardRef } from 'react'
+import { DetailedHTMLProps, HTMLAttributes, ReactNode, forwardRef } from 'react'
 
 import { jsx } from '@emotion/react'
 
 import { UseBoxParams, useBox } from './useBox'
 
-export interface BoxProps extends UseBoxParams {
+type Div = DetailedHTMLProps<HTMLAttributes<HTMLDivElement>, HTMLDivElement>
+
+export interface BoxProps extends UseBoxParams, Div {
   children?: ReactNode | string
   as?: string
 }
