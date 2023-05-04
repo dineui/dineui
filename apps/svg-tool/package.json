@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@emotion/react": "11.10.5",
+    "@emotion/react": "11.10.8",
     "click-to-react-component": "^1.0.8",
     "copy-to-clipboard": "^3.3.2",
     "dineui": "workspace:*",
