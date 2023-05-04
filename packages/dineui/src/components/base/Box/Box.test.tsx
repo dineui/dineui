@@ -35,7 +35,7 @@ describe('Box component', () => {
         xxl={{ width: 6 }}
         xxxl={{ width: 7 }}>
         box
-      </Box>
+      </Box>,
     )
 
     const tree = toJson(component)
@@ -50,7 +50,7 @@ describe('Box component', () => {
           console.log('ok')
         }}>
         box
-      </Box>
+      </Box>,
     )
 
     const tree = toJson(component)

@@ -14,7 +14,7 @@
   "dependencies": {
     "@emotion/react": "11.10.5",
     "click-to-react-component": "^1.0.8",
-    "dineui": "workspace:^0.0.5",
+    "dineui": "workspace:*",
     "next": "^13.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
