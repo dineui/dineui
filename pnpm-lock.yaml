@@ -42,8 +42,8 @@ importers:
         specifier: workspace:^1.0.0
         version: link:../../packages/eslint-config-dineui
       '@types/node':
-        specifier: 18.16.5
-        version: 18.16.5
+        specifier: 18.16.6
+        version: 18.16.6
       '@types/react':
         specifier: 18.2.6
         version: 18.2.6
@@ -91,8 +91,8 @@ importers:
         specifier: workspace:^1.0.0
         version: link:../../packages/eslint-config-dineui
       '@types/node':
-        specifier: 18.16.5
-        version: 18.16.5
+        specifier: 18.16.6
+        version: 18.16.6
       '@types/react':
         specifier: 18.2.6
         version: 18.2.6
@@ -171,7 +171,7 @@ importers:
         version: 5.0.4
       vite:
         specifier: 4.3.5
-        version: 4.3.5(@types/node@18.16.5)
+        version: 4.3.5(@types/node@18.16.6)
       vitest:
         specifier: 0.31.0
         version: 0.31.0(happy-dom@9.10.9)
@@ -903,7 +903,7 @@ packages:
       '@jest/schemas': 29.4.3
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 18.16.5
+      '@types/node': 18.16.6
       '@types/yargs': 17.0.24
       chalk: 4.1.2
     dev: true
@@ -1537,8 +1537,8 @@ packages:
     resolution: {integrity: sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==}
     dev: true
 
-  /@types/node@18.16.5:
-    resolution: {integrity: sha512-seOA34WMo9KB+UA78qaJoCO20RJzZGVXQ5Sh6FWu0g/hfT44nKXnej3/tCQl7FL97idFpBhisLYCTB50S0EirA==}
+  /@types/node@18.16.6:
+    resolution: {integrity: sha512-N7KINmeB8IN3vRR8dhgHEp+YpWvGFcpDoh5XZ8jB5a00AdFKCKEyyGTOPTddUf4JqU1ZKTVxkOxakDvchNVI2Q==}
     dev: true
 
   /@types/normalize-package-data@2.4.1:
@@ -1580,7 +1580,7 @@ packages:
   /@types/sharp@0.31.0:
     resolution: {integrity: sha512-nwivOU101fYInCwdDcH/0/Ru6yIRXOpORx25ynEOc6/IakuCmjOAGpaO5VfUl4QkDtUC6hj+Z2eCQvgXOioknw==}
     dependencies:
-      '@types/node': 18.16.5
+      '@types/node': 18.16.6
     dev: true
 
   /@types/stack-utils@2.0.1:
@@ -1739,7 +1739,7 @@ packages:
       '@babel/plugin-transform-react-jsx-self': 7.21.0(@babel/core@7.21.8)
       '@babel/plugin-transform-react-jsx-source': 7.19.6(@babel/core@7.21.8)
       react-refresh: 0.14.0
-      vite: 4.3.5(@types/node@18.16.5)
+      vite: 4.3.5(@types/node@18.16.6)
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -3977,7 +3977,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.5.0
-      '@types/node': 18.16.5
+      '@types/node': 18.16.6
       chalk: 4.1.2
       ci-info: 3.8.0
       graceful-fs: 4.2.11
@@ -6120,7 +6120,7 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite-node@0.31.0(@types/node@18.16.5):
+  /vite-node@0.31.0(@types/node@18.16.6):
     resolution: {integrity: sha512-8x1x1LNuPvE2vIvkSB7c1mApX5oqlgsxzHQesYF7l5n1gKrEmrClIiZuOFbFDQcjLsmcWSwwmrWrcGWm9Fxc/g==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -6130,7 +6130,7 @@ packages:
       mlly: 1.2.0
       pathe: 1.1.0
       picocolors: 1.0.0
-      vite: 4.3.5(@types/node@18.16.5)
+      vite: 4.3.5(@types/node@18.16.6)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -6141,7 +6141,7 @@ packages:
       - terser
     dev: true
 
-  /vite@4.3.5(@types/node@18.16.5):
+  /vite@4.3.5(@types/node@18.16.6):
     resolution: {integrity: sha512-0gEnL9wiRFxgz40o/i/eTBwm+NEbpUeTWhzKrZDSdKm6nplj+z4lKz8ANDgildxHm47Vg8EUia0aicKbawUVVA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -6166,7 +6166,7 @@ packages:
       terser:
         optional: true
     dependencies:
-      '@types/node': 18.16.5
+      '@types/node': 18.16.6
       esbuild: 0.17.18
       postcss: 8.4.23
       rollup: 3.21.5
@@ -6207,7 +6207,7 @@ packages:
     dependencies:
       '@types/chai': 4.3.5
       '@types/chai-subset': 1.3.3
-      '@types/node': 18.16.5
+      '@types/node': 18.16.6
       '@vitest/expect': 0.31.0
       '@vitest/runner': 0.31.0
       '@vitest/snapshot': 0.31.0
@@ -6228,8 +6228,8 @@ packages:
       strip-literal: 1.0.1
       tinybench: 2.5.0
       tinypool: 0.5.0
-      vite: 4.3.5(@types/node@18.16.5)
-      vite-node: 0.31.0(@types/node@18.16.5)
+      vite: 4.3.5(@types/node@18.16.6)
+      vite-node: 0.31.0(@types/node@18.16.6)
       why-is-node-running: 2.2.2
     transitivePeerDependencies:
       - less
