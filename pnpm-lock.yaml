@@ -78,8 +78,8 @@ importers:
         specifier: ^18.2.0
         version: 18.2.0(react@18.2.0)
       satori:
-        specifier: ^0.7.0
-        version: 0.7.0
+        specifier: ^0.8.0
+        version: 0.8.0
       sharp:
         specifier: ^0.32.0
         version: 0.32.0
@@ -5395,8 +5395,8 @@ packages:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
     dev: true
 
-  /satori@0.7.0:
-    resolution: {integrity: sha512-PGd9RPgYh2dkDJVdpc0X5Jm0WLdwRLrHo7HSDLCZ72RDp0eOMojMOFf7ukDlJ2MB7afWd2YFiR6PywoFnaeVHg==}
+  /satori@0.8.0:
+    resolution: {integrity: sha512-hasNIhGgJCqt5Yvy3H0wu8g9vvW5AAOWdt6/R5b+jhukqUTK97CdO3+fUTmuglExtesZRUOybM5yTKVHV2WuSQ==}
     engines: {node: '>=16'}
     dependencies:
       '@shuding/opentype.js': 1.4.0-beta.0
