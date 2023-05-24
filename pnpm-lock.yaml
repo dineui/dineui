@@ -155,8 +155,8 @@ importers:
         specifier: 8.41.0
         version: 8.41.0
       happy-dom:
-        specifier: 9.20.1
-        version: 9.20.1
+        specifier: 9.20.3
+        version: 9.20.3
       react:
         specifier: 18.2.0
         version: 18.2.0
@@ -174,7 +174,7 @@ importers:
         version: 4.3.8(@types/node@18.16.14)
       vitest:
         specifier: 0.31.1
-        version: 0.31.1(happy-dom@9.20.1)
+        version: 0.31.1(happy-dom@9.20.3)
 
   packages/eslint-config-dineui:
     dependencies:
@@ -3537,8 +3537,8 @@ packages:
       uglify-js: 3.17.4
     dev: true
 
-  /happy-dom@9.20.1:
-    resolution: {integrity: sha512-cEUGxStAKrsuUGdw5KJ8PgbZ5u41SP1UgL1E23ncLcMNf/kiQU2VcI8r5/Kc20V18gz4xNYkrj005Ex4xPJsoQ==}
+  /happy-dom@9.20.3:
+    resolution: {integrity: sha512-eBsgauT435fXFvQDNcmm5QbGtYzxEzOaX35Ia+h6yP/wwa4xSWZh1CfP+mGby8Hk6Xu59mTkpyf72rUXHNxY7A==}
     dependencies:
       css.escape: 1.5.1
       entities: 4.5.0
@@ -6177,7 +6177,7 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitest@0.31.1(happy-dom@9.20.1):
+  /vitest@0.31.1(happy-dom@9.20.3):
     resolution: {integrity: sha512-/dOoOgzoFk/5pTvg1E65WVaobknWREN15+HF+0ucudo3dDG/vCZoXTQrjIfEaWvQXmqScwkRodrTbM/ScMpRcQ==}
     engines: {node: '>=v14.18.0'}
     hasBin: true
@@ -6222,7 +6222,7 @@ packages:
       chai: 4.3.7
       concordance: 5.0.4
       debug: 4.3.4
-      happy-dom: 9.20.1
+      happy-dom: 9.20.3
       local-pkg: 0.4.3
       magic-string: 0.30.0
       pathe: 1.1.0
