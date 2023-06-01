@@ -34,7 +34,7 @@
     "react-test-renderer": "18.2.0",
     "typescript": "5.0.4",
     "vite": "4.3.9",
-    "vitest": "0.31.3"
+    "vitest": "0.31.4"
   },
   "peerDependencies": {
     "@emotion/react": "11.11.0",
