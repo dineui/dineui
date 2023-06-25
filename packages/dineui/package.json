@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "deepmerge": "4.3.1",
-    "rollup": "3.25.1",
+    "rollup": "3.25.2",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-typescript2": "0.35.0"
   }
