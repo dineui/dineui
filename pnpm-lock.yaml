@@ -116,14 +116,14 @@ importers:
         specifier: 4.3.1
         version: 4.3.1
       rollup:
-        specifier: 3.27.1
-        version: 3.27.1
+        specifier: 3.27.2
+        version: 3.27.2
       rollup-plugin-peer-deps-external:
         specifier: 2.2.4
-        version: 2.2.4(rollup@3.27.1)
+        version: 2.2.4(rollup@3.27.2)
       rollup-plugin-typescript2:
         specifier: 0.35.0
-        version: 0.35.0(rollup@3.27.1)(typescript@5.1.6)
+        version: 0.35.0(rollup@3.27.2)(typescript@5.1.6)
     devDependencies:
       '@dineui/eslint-config-dineui':
         specifier: workspace:^1.0.0
@@ -5400,15 +5400,15 @@ packages:
     dependencies:
       glob: 7.1.4
 
-  /rollup-plugin-peer-deps-external@2.2.4(rollup@3.27.1):
+  /rollup-plugin-peer-deps-external@2.2.4(rollup@3.27.2):
     resolution: {integrity: sha512-AWdukIM1+k5JDdAqV/Cxd+nejvno2FVLVeZ74NKggm3Q5s9cbbcOgUPGdbxPi4BXu7xGaZ8HG12F+thImYu/0g==}
     peerDependencies:
       rollup: '*'
     dependencies:
-      rollup: 3.27.1
+      rollup: 3.27.2
     dev: false
 
-  /rollup-plugin-typescript2@0.35.0(rollup@3.27.1)(typescript@5.1.6):
+  /rollup-plugin-typescript2@0.35.0(rollup@3.27.2)(typescript@5.1.6):
     resolution: {integrity: sha512-szcIO9hPUx3PhQl91u4pfNAH2EKbtrXaES+m163xQVE5O1CC0ea6YZV/5woiDDW3CR9jF2CszPrKN+AFiND0bg==}
     peerDependencies:
       rollup: '>=1.26.3'
@@ -5417,14 +5417,14 @@ packages:
       '@rollup/pluginutils': 4.2.1
       find-cache-dir: 3.3.2
       fs-extra: 10.1.0
-      rollup: 3.27.1
+      rollup: 3.27.2
       semver: 7.5.0
       tslib: 2.5.0
       typescript: 5.1.6
     dev: false
 
-  /rollup@3.27.1:
-    resolution: {integrity: sha512-tXNDFwOkN6C2w5Blj1g6ForKeFw6c1mDu5jxoeDO3/pmYjgt+8yvIFjKzH5FQUq70OKZBkOt0zzv0THXL7vwzQ==}
+  /rollup@3.27.2:
+    resolution: {integrity: sha512-YGwmHf7h2oUHkVBT248x0yt6vZkYQ3/rvE5iQuVBh3WO8GcJ6BNeOkpoX1yMHIiBm18EMLjBPIoUDkhgnyxGOQ==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -6244,7 +6244,7 @@ packages:
       '@types/node': 18.17.2
       esbuild: 0.18.11
       postcss: 8.4.26
-      rollup: 3.27.1
+      rollup: 3.27.2
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
