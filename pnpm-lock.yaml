@@ -22,10 +22,10 @@ importers:
     dependencies:
       '@emotion/react':
         specifier: 11.11.1
-        version: 11.11.1(@types/react@18.2.18)(react@18.2.0)
+        version: 11.11.1(@types/react@18.2.19)(react@18.2.0)
       click-to-react-component:
         specifier: ^1.0.8
-        version: 1.0.8(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
+        version: 1.0.8(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
       dineui:
         specifier: workspace:*
         version: link:../../packages/dineui
@@ -49,8 +49,8 @@ importers:
         specifier: 18.17.3
         version: 18.17.3
       '@types/react':
-        specifier: 18.2.18
-        version: 18.2.18
+        specifier: 18.2.19
+        version: 18.2.19
       '@types/react-dom':
         specifier: 18.2.7
         version: 18.2.7
@@ -62,10 +62,10 @@ importers:
     dependencies:
       '@emotion/react':
         specifier: 11.11.1
-        version: 11.11.1(@types/react@18.2.18)(react@18.2.0)
+        version: 11.11.1(@types/react@18.2.19)(react@18.2.0)
       click-to-react-component:
         specifier: ^1.0.8
-        version: 1.0.8(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
+        version: 1.0.8(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
       copy-to-clipboard:
         specifier: ^3.3.2
         version: 3.3.2
@@ -98,8 +98,8 @@ importers:
         specifier: 18.17.3
         version: 18.17.3
       '@types/react':
-        specifier: 18.2.18
-        version: 18.2.18
+        specifier: 18.2.19
+        version: 18.2.19
       '@types/react-dom':
         specifier: 18.2.7
         version: 18.2.7
@@ -133,7 +133,7 @@ importers:
         version: 11.11.0(@types/jest@29.5.3)
       '@emotion/react':
         specifier: 11.11.1
-        version: 11.11.1(@types/react@18.2.18)(react@18.2.0)
+        version: 11.11.1(@types/react@18.2.19)(react@18.2.0)
       '@testing-library/jest-dom':
         specifier: 5.17.0
         version: 5.17.0
@@ -144,8 +144,8 @@ importers:
         specifier: 29.5.3
         version: 29.5.3
       '@types/react':
-        specifier: 18.2.18
-        version: 18.2.18
+        specifier: 18.2.19
+        version: 18.2.19
       '@types/react-dom':
         specifier: 18.2.7
         version: 18.2.7
@@ -551,7 +551,7 @@ packages:
   /@emotion/memoize@0.8.1:
     resolution: {integrity: sha512-W2P2c/VRW1/1tLox0mVUalvnWXxavmv/Oum2aPsRcoDJuob75FC3Y8FbpfLwUegRcxINtGUMPq0tFCvYNTBXNA==}
 
-  /@emotion/react@11.11.1(@types/react@18.2.18)(react@18.2.0):
+  /@emotion/react@11.11.1(@types/react@18.2.19)(react@18.2.0):
     resolution: {integrity: sha512-5mlW1DquU5HaxjLkfkGN1GA/fvVGdyHURRiX/0FHl2cfIfRxSOfmxEH5YS43edp0OldZrZ+dkBKbngxcNCdZvA==}
     peerDependencies:
       '@types/react': '*'
@@ -567,7 +567,7 @@ packages:
       '@emotion/use-insertion-effect-with-fallbacks': 1.0.1(react@18.2.0)
       '@emotion/utils': 1.2.1
       '@emotion/weak-memoize': 0.3.1
-      '@types/react': 18.2.18
+      '@types/react': 18.2.19
       hoist-non-react-statics: 3.3.2
       react: 18.2.0
 
@@ -877,21 +877,21 @@ packages:
       '@floating-ui/core': 0.6.2
     dev: false
 
-  /@floating-ui/react-dom-interactions@0.3.1(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0):
+  /@floating-ui/react-dom-interactions@0.3.1(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-tP2KEh7EHJr5hokSBHcPGojb+AorDNUf0NYfZGg/M+FsMvCOOsSEeEF0O1NDfETIzDnpbHnCs0DuvCFhSMSStg==}
     deprecated: Package renamed to @floating-ui/react
     dependencies:
-      '@floating-ui/react-dom': 0.6.3(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
+      '@floating-ui/react-dom': 0.6.3(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
       aria-hidden: 1.2.3
       point-in-polygon: 1.1.0
-      use-isomorphic-layout-effect: 1.1.2(@types/react@18.2.18)(react@18.2.0)
+      use-isomorphic-layout-effect: 1.1.2(@types/react@18.2.19)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
       - react
       - react-dom
     dev: false
 
-  /@floating-ui/react-dom@0.6.3(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0):
+  /@floating-ui/react-dom@0.6.3(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-hC+pS5D6AgS2wWjbmSQ6UR6Kpy+drvWGJIri6e1EDGADTPsCaa4KzCgmCczHrQeInx9tqs81EyDmbKJYY2swKg==}
     peerDependencies:
       react: '>=16.8.0'
@@ -900,7 +900,7 @@ packages:
       '@floating-ui/dom': 0.4.5
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
-      use-isomorphic-layout-effect: 1.1.2(@types/react@18.2.18)(react@18.2.0)
+      use-isomorphic-layout-effect: 1.1.2(@types/react@18.2.19)(react@18.2.0)
     transitivePeerDependencies:
       - '@types/react'
     dev: false
@@ -1611,17 +1611,17 @@ packages:
   /@types/react-dom@18.2.7:
     resolution: {integrity: sha512-GRaAEriuT4zp9N4p1i8BDBYmEyfo+xQ3yHjJU4eiK5NDa1RmUZG+unZABUTK4/Ox/M+GaHwb6Ow8rUITrtjszA==}
     dependencies:
-      '@types/react': 18.2.18
+      '@types/react': 18.2.19
     dev: true
 
   /@types/react-test-renderer@18.0.0:
     resolution: {integrity: sha512-C7/5FBJ3g3sqUahguGi03O79b8afNeSD6T8/GU50oQrJCU0bVCCGQHaGKUbg2Ce8VQEEqTw8/HiS6lXHHdgkdQ==}
     dependencies:
-      '@types/react': 18.2.18
+      '@types/react': 18.2.19
     dev: true
 
-  /@types/react@18.2.18:
-    resolution: {integrity: sha512-da4NTSeBv/P34xoZPhtcLkmZuJ+oYaCxHmyHzwaDQo9RQPBeXV+06gEk2FpqEcsX9XrnNLvRpVh6bdavDSjtiQ==}
+  /@types/react@18.2.19:
+    resolution: {integrity: sha512-e2S8wmY1ePfM517PqCG80CcE48Xs5k0pwJzuDZsfE8IZRRBfOMCF+XqnFxu6mWtyivum1MQm4aco+WIt6Coimw==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -2234,12 +2234,12 @@ packages:
       '@colors/colors': 1.5.0
     dev: true
 
-  /click-to-react-component@1.0.8(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0):
+  /click-to-react-component@1.0.8(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-YBNYOp00udy+NBEnUmM/3Df0Yco1iHNQ8k0ltlJVcDYK9AuYt14xPoJicBh/BokLqbzkci1p+pbdY5r4JXZC4g==}
     peerDependencies:
       react: '>=16.8.0'
     dependencies:
-      '@floating-ui/react-dom-interactions': 0.3.1(@types/react@18.2.18)(react-dom@18.2.0)(react@18.2.0)
+      '@floating-ui/react-dom-interactions': 0.3.1(@types/react@18.2.19)(react-dom@18.2.0)(react@18.2.0)
       htm: 3.1.1
       react: 18.2.0
       react-merge-refs: 1.1.0
@@ -6156,7 +6156,7 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dev: true
 
-  /use-isomorphic-layout-effect@1.1.2(@types/react@18.2.18)(react@18.2.0):
+  /use-isomorphic-layout-effect@1.1.2(@types/react@18.2.19)(react@18.2.0):
     resolution: {integrity: sha512-49L8yCO3iGT/ZF9QttjwLF/ZD9Iwto5LnH5LmEdk/6cFmXddqi2ulF0edxTwjj+7mqvpVVGQWvbXZdn32wRSHA==}
     peerDependencies:
       '@types/react': '*'
@@ -6165,7 +6165,7 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      '@types/react': 18.2.18
+      '@types/react': 18.2.19
       react: 18.2.0
     dev: false
 
