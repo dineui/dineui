@@ -130,7 +130,7 @@ importers:
         version: link:../eslint-config-dineui
       '@emotion/jest':
         specifier: 11.11.0
-        version: 11.11.0(@types/jest@29.5.3)
+        version: 11.11.0(@types/jest@29.5.4)
       '@emotion/react':
         specifier: 11.11.1
         version: 11.11.1(@types/react@18.2.20)(react@18.2.0)
@@ -141,8 +141,8 @@ importers:
         specifier: 14.0.0
         version: 14.0.0(react-dom@18.2.0)(react@18.2.0)
       '@types/jest':
-        specifier: 29.5.3
-        version: 29.5.3
+        specifier: 29.5.4
+        version: 29.5.4
       '@types/react':
         specifier: 18.2.20
         version: 18.2.20
@@ -529,7 +529,7 @@ packages:
   /@emotion/hash@0.9.1:
     resolution: {integrity: sha512-gJB6HLm5rYwSLI6PQa+X1t5CFGrv1J1TWG+sOyMCeKz2ojaj6Fnl/rZEspogG+cvqbt4AE/2eIyD2QfLKTBNlQ==}
 
-  /@emotion/jest@11.11.0(@types/jest@29.5.3):
+  /@emotion/jest@11.11.0(@types/jest@29.5.4):
     resolution: {integrity: sha512-XZlnmdUZ32YjQnInsCFk/plKpkV/NXN1Ab4YoNvXN887MeR3Hr5ZsTyoblIW8AWwdfQiZHHphaPMb56lk6Ofdw==}
     peerDependencies:
       '@types/jest': ^26.0.14 || ^27.0.0 || ^28.0.0 || ^29.0.0
@@ -542,7 +542,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.21.5
       '@emotion/css-prettifier': 1.1.3
-      '@types/jest': 29.5.3
+      '@types/jest': 29.5.4
       chalk: 4.1.2
       specificity: 0.4.1
       stylis: 4.2.0
@@ -1575,8 +1575,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest@29.5.3:
-    resolution: {integrity: sha512-1Nq7YrO/vJE/FYnqYyw0FS8LdrjExSgIiHyKg7xPpn+yi8Q4huZryKnkJatN1ZRH89Kw2v33/8ZMB7DuZeSLlA==}
+  /@types/jest@29.5.4:
+    resolution: {integrity: sha512-PhglGmhWeD46FYOVLt3X7TiWjzwuVGW9wG/4qocPevXMjCmrIc5b6db9WjeGE4QYVpUAWMDv3v0IiBwObY289A==}
     dependencies:
       expect: 29.5.0
       pretty-format: 29.5.0
@@ -1643,7 +1643,7 @@ packages:
   /@types/testing-library__jest-dom@5.14.5:
     resolution: {integrity: sha512-SBwbxYoyPIvxHbeHxTZX2Pe/74F/tX2/D3mMvzabdeJ25bBojfW0TyB8BHrbq/9zaaKICJZjLP+8r6AeZMFCuQ==}
     dependencies:
-      '@types/jest': 29.5.3
+      '@types/jest': 29.5.4
     dev: true
 
   /@types/yargs-parser@21.0.0:
