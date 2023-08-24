@@ -23,6 +23,6 @@
   "devDependencies": {
     "prettier": "2.8.8",
     "nx": "16.7.4",
-    "semantic-release": "21.1.0"
+    "semantic-release": "21.1.1"
   }
 }
