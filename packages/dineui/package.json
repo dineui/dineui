@@ -28,7 +28,7 @@
     "@types/react-test-renderer": "18.0.1",
     "@vitejs/plugin-react": "4.0.4",
     "eslint": "8.49.0",
-    "happy-dom": "9.20.3",
+    "happy-dom": "11.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-test-renderer": "18.2.0",
