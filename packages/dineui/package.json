@@ -25,7 +25,7 @@
     "@types/jest": "29.5.6",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
-    "@types/react-test-renderer": "18.0.1",
+    "@types/react-test-renderer": "18.0.3",
     "@vitejs/plugin-react": "4.0.4",
     "eslint": "8.49.0",
     "happy-dom": "9.20.3",
