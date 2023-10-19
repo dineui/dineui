@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "@dineui/eslint-config-dineui": "workspace:^1.0.0",
-    "@types/node": "18.17.17",
+    "@types/node": "18.18.6",
     "@types/react": "18.2.29",
     "@types/react-dom": "18.2.14",
     "eslint": "8.49.0"
